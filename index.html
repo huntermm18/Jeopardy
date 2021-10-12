@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Jeopardy</title>
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class='header-container'>
+        <h1>This is Jeopardy</h1>
+          <div class='header'>
+            <div class='main-header'></div>
+          </div>
+        </div>
+
+
+    <div class="boxholder">
+
+            
+        <div class="first-box">
+
+            <form class="pure-form>" <fieldset>
+                <legend>Enter an ID number for your desired category, or leave blank for random</legend><br>
+                <input placeholder="Category ID" id="number">
+                <br>
+    
+                <p></p>
+                <button id="woo" class="pure-button pure-button-primary">Get Question</button>
+                </fieldset>
+            </form>
+    
+        </div>
+
+        <div>
+            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHLS_6G9ZJJKGyyMbSqnv5fze9X66ql7msqg&usqp=CAU'>
+        </div>
+
+
+    </div>
+    
+  
+    <div class="second-box">
+        <br>
+        <h3 id="category"></h3>
+        <p id="question"></p>
+        <p id="answer"></p>
+        
+
+
+        <br>
+        <button id="answerButton" class="pure-button pure-button-primary">Get Answer</button>
+        <p id="answerShown"></p>
+        <p id="answer"></p>
+    </div>
+
+    <div class="third-box">
+        <h1 id="idsaver"></h1>
+        <h2>Some category ID numbers:</h2>
+        <ul>
+            <li>Movies: 4</li>
+            <li>Magazines: 752</li>
+            <li>Stupid Answers: 136</li>
+            <li>Old Testiment Books: 7969</li>
+            <li>dictators & tyrants: 9238</li>
+            <li>economics: 761</li>
+            <li>you should know this: 17770</li>
+            <li>1960s broadway: 1329</li>
+            <li>antonyms: 1564</li>
+            <li>movies by cast: 16271</li>
+            <li>inventors: 1498</li>
+            <li>5-letter words: 139</li>
+            <li>chocolate: 212</li>
+            <li>familiar tv faces: 4769</li>
+            <li>spaced out: 5256</li>
+        </ul>
+    </div>
+
+    <div class='header-container footer'>
+        <p><br>The api <a href="http://jservice.io/">jservice.io</a> is being used to
+            generate questions</p>
+    </div>
+  
+
+
+  <script text="type/javascript" src="script.js">
+  </script>
+
+
+</body>
+
+</html>

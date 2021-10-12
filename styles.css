@@ -1,0 +1,43 @@
+* {
+    list-style: none;
+    justify-content: center;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(236, 236, 236);
+}
+
+div {
+    border: black;
+    border-radius: 2px;
+}
+
+#answer {
+    display: none;
+}
+
+.header-container {
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+    color: #5995DA;
+    background-color: #D6E9FE;
+    justify-content: center;
+  }
+
+  .footer {
+      margin-top: 200px;
+  }
+  .boxholder {
+      display: flex;
+      flex-direction: column-reverse;
+      margin: 15px;
+  }
+  .first-box {
+      margin: 20px;
+  }
+
